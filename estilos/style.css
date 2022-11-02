@@ -64,7 +64,7 @@ section#login > div#formulario>p {
     font-size: 0.8em;
 }
 
-.material-symbols-outlined {
+span.material-symbols-outlined {
     width: 44px;
     color: #fff;
     padding: 5px;
@@ -80,15 +80,15 @@ div.campo {
     margin: 5px 0px;
 }
 
-div.campo>input {
+div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
     border-radius: 8px;
     border: 0;
-    width: calc(100% - 45px);
+    width: calc(100%);
     height: 100%;
     padding: 5px;
-    transform: translateY(-5px)
+    transform: translateY(-5px);
 }
 
 form>input[type=submit] {
